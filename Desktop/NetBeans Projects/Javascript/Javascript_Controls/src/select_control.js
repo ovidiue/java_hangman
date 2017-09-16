@@ -10,6 +10,10 @@ var select = function (params) {
         target: $('body'),
         source: []
     }
+    
+    this.test = function() {
+        
+    }
 
     if (params)
         $.extend(true, this.params, params);
