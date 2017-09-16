@@ -68,6 +68,8 @@ var select = function (params) {
     }
 }
 
+
+// example of params that can be used to initialise control
 var params = {
     source: [{
             text: "Pizza",
@@ -76,8 +78,8 @@ var params = {
             text: "Lasagna",
             value: "Lasagna"
         }, {
-            text: "Ciorba",
-            value: "Ciorba"
+            text: "Soup",
+            value: "Soup"
         }, {
             text: "French fries",
             value: "French fries"
