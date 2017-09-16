@@ -11,10 +11,7 @@ var select = function (params) {
         source: []
     }
     
-    this.test = function() {
-        
-    }
-
+  
     if (params)
         $.extend(true, this.params, params);
 
